@@ -2,26 +2,36 @@
 <html>
 
 <head>
-    <title>web demo</border: 1px solid black;title>
-        <meta charset="UTF-8">
-        <meta>
-        <link rel="stylesheet" href="styles1.css">
+    <title>web demo</title>
+    <meta charset="UTF-8">
+    <meta>
+    <link rel="stylesheet" href="styles1.css">
 
 </head>
 
 <body>
-    <div>
-        <div class="sidebar">side </div>
-        <div class="head">head </div>
-
-        <div class="conent">article</div>
-        <div class="footer"> footer</div>
-
-
-
-
-
-
+    <div class="flexbox-r" id="main">
+        <div id="sidebar">side </div>
+        <div class="flexbox-c" id="content">
+            <div id="header">header</div>
+            <div class="flexbox-r" id="content1">
+                <div class="flexbox-c" id="left-content">
+                    <div class="flexbox-c" id="left-content-inner">
+                        <div class="item" id="col8"></div>
+                        <div class="item" id="col9"></div>
+                    </div>
+                </div>
+                <div class="flexbox-c" id="right-content">
+                    <div class="flexbox-c" id="right-content-inner">
+                        <div class="flexbox-r" id="col10">
+                            <div class="item" id="row12"></div>
+                            <div class="item" id="row13"></div>
+                        </div>
+                        <div class="item" id="col11"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
 

@@ -1,21 +1,120 @@
-body {
-    margin: 0%;
-    padding: 0%;
-    display: flex;
-    border-radius: 25px;
-    background-color: blanchedalmond;
+* {
+    margin:     0;
+    padding:    0;
+    box-sizing: border-box;
 }
 
-.head {
-    width: 70vh;
-    height: 250px;
-    display: flex;
-    float: right;
+#main {
+    width:            100vw;
+    height:           100vh;
+    background-color: hsl(0, 0%, 95%);
+}
+
+#sidebar {
+    width:  15%;
+    height: 100%;
     border: 1px solid black;
 }
 
-.sidebar {
-    width: 30vh;
-    height: 100vh;
+#content {
+    width:  85%;
+    height: 100%;
     border: 1px solid black;
+}
+
+#header {
+    width:  100%;
+    height: 30%;
+    border: 1px solid blue;
+}
+
+#content1 {
+    width:       100%;
+    height:      70%;
+    border:      1px solid black;
+    align-items: center;
+}
+
+#left-content { 
+    width:       40%;
+    height:      100%;
+    align-items: center;
+    padding:     20px 10px 20px 20px;
+    /* border: solid black 1px; */
+}
+
+#left-content-inner { 
+    width:           100%;
+    height:          100%;
+    justify-content: space-between;
+    align-items:     center;
+    /* border: solid black 1px; */
+}
+
+#right-content {
+    width:           60%;
+    height:          100%;
+    align-items:     center;
+    padding:         20px 20px 20px 10px;
+    /* border: solid black 1px; */
+}
+
+#right-content-inner {
+    width:       100%;
+    height:      100%;
+    align-items: center;
+}
+
+#col8 {
+    width:         100%;
+    height:        80%;
+    margin-bottom: 5px;
+}
+
+#col9 {
+    width:  100%;
+    height: 20%;
+}
+
+#col10 {
+    width:         100%;
+    height:        50%;
+    margin-bottom: 5px;
+    align-items:   center;
+}
+
+#col11 {
+    width:  100%;
+    height: 50%;
+}
+
+#row12 {
+    width:        40%;
+    height:       100%;
+    margin-right: 5px;
+}
+
+#row13 {
+    width:  60%;
+    height: 100%;
+}
+
+
+.item {
+    background-color: #ffffff90;
+    border-radius:    20px;
+}
+
+
+.flexbox-r {
+    display:         flex;
+    flex-direction:  row;
+    justify-content: center;
+}
+
+
+.flexbox-c {
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
 }
