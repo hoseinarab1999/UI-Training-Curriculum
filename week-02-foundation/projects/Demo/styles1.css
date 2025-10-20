@@ -513,19 +513,20 @@
 .contentin13{
     display:          flex;
     flex-direction:   row;
-    justify-content: center;
+    
 }
 
 .chartpie{
     display:         flex;
-    align-items:     center;
+    justify-content: right;
+    margin-left:     140px;
 }
 
 .chartpie1{
-    width:           70px;
-    height:          70px;
-    border:          7px solid hsl(0 , 0% , 75%);
-    border-radius:   50%;
+    width:        70px;
+    height:       70px;
+    border:       7px solid hsl(0 , 0% , 75%);
+    border-radius:50%;
 }
 
 .chartpie2{
@@ -547,3 +548,19 @@
     align-items:     center;
     justify-content: center;
 }
+
+#working{
+    border-left: solid 4px orange;
+    margin-right: 5px;
+}
+
+#tasks{
+    border-left: solid 4px aqua;
+    margin-right: 5px;
+}
+
+#project{
+    border-left: solid 4px lightblue;
+    margin-right: 5px;
+}
+
