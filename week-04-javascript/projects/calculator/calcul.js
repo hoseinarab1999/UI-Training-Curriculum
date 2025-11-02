@@ -4,12 +4,11 @@ const displayInput = document.getElementById("input");
 
 const clear = document.getElementById("clrBtn");
     clear.addEventListener("click", () => {
-    console.log("clearDisplay");
     displayInput.value = "";
 });
 
 const buttons = document.getElementsByClassName("btn");
-    for (let idx = 0; idx < buttons.length; idx++) {
+for (let idx = 0; idx < buttons.length; idx++) {
     const btn = buttons[idx];
     btn.addEventListener("click", (ev) => {
         displayInput.value += ev.target?.innerText;
@@ -22,11 +21,16 @@ const buttons = document.getElementsByClassName("btn");
 // }
 
 const operator = document.getElementsByClassName("rightbtn");
-    for (let index = 0; index < operator.length; index++) {
-        const rightbtn = operator[index];
-        rightbtn.addEventListener("click" , (op) => {
-            displayInput.value += op.target?.innerText;
-        });
+for (let index = 0; index < operator.length; index++) {
+    const rightbtn = operator[index];
+    rightbtn.addEventListener("click" , (event) => {
+        console.log(event.target?.innerText);
+        const lastchar = displayInput.value[displayInput.value.length - 1];
+        if (displayInput.value === ""){return;}
+        if (event.target?.innerText === lastchar){return;}
+        else displayInput.value += event.target?.innerText;
+        
+    });
 };
 
 const result = document.getElementById("sum");
@@ -39,6 +43,12 @@ percentage.addEventListener("click" , () => {
     displayInput.value =Number(displayInput.value)/100;
 });
 
+const dott = document.getElementById("dot");
+dott.addEventListener("click" , () => { 
+    if (displayInput.value === "" && includes(value)){return;} 
+    displayInput.value+= "."
+})
+
 const minusornot = document.getElementById("minus");
 minusornot.addEventListener("click" , () => {
     displayInput.value+= "-";
@@ -48,26 +58,4 @@ minusornot.addEventListener("click" , () => {
         }
     }
 });
-
-
-let i = document.getElementsByClassName("rightbtn");
-function ii(){
-if( i == 0){
-    return;
-}};
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 

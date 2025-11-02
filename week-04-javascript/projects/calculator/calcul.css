@@ -61,60 +61,60 @@ button{
 }
 
 .rightbtn{
-    width:            125px;
-    height:           125px;
-    border-radius:    35px;
-    font-size:        3rem;
-    margin:           5px;
-    background:       linear-gradient(300deg ,rgb(255, 183, 88) ,rgb(228, 129, 0));
-    border:           none;
-    box-shadow:       inset 2px 2px 10px #fff, inset -2px -2px 10px rgb(143, 143, 143);
-    font-family:      arial,sans-serif ;
-    color:            #fff;
+    width:        125px;
+    height:       125px;
+    border-radius:35px;
+    font-size:    3rem;
+    margin:       5px;
+    background:   linear-gradient(300deg ,rgb(255, 183, 88) ,rgb(228, 129, 0));
+    border:       none;
+    box-shadow:   inset 2px 2px 10px #fff, inset -2px -2px 10px rgb(143, 143, 143);
+    font-family:  arial,sans-serif ;
+    color:        #fff;
 }
 
 .topbtn{
-    width:            125px;
-    height:           125px;
-    border-radius:    35px;
-    font-size:        3rem;
-    margin:           5px;
-    background:       linear-gradient(300deg , rgb(240, 240, 240) , rgb(200, 200, 200) );
-    border:           none;
-    box-shadow:       inset 2px 2px 10px #fff, inset -2px -2px 10px rgb(143, 143, 143);
-    font-family:      arial,sans-serif ;
+    width:        125px;
+    height:       125px;
+    border-radius:35px;
+    font-size:    3rem;
+    margin:       5px;
+    background:   linear-gradient(300deg , rgb(240, 240, 240) , rgb(200, 200, 200) );
+    border:       none;
+    box-shadow:   inset 2px 2px 10px #fff, inset -2px -2px 10px rgb(143, 143, 143);
+    font-family:  arial,sans-serif ;
 }
 
 button:hover{
-    box-shadow:    5px 5px 10px #fff, -2px -2px 10px rgb(210, 210, 210);
-    cursor:        pointer;
+    box-shadow: 5px 5px 10px #fff, -2px -2px 10px rgb(210, 210, 210);
+    cursor:     pointer;
 }
 
 button:active{
-    background:    linear-gradient(300deg , white , rgb(190, 190, 190) );
+    background: linear-gradient(300deg , white , rgb(190, 190, 190) );
 }
 
 .rightbtn:active{
-    background:       linear-gradient(300deg , rgb(255, 166, 49) , rgb(190, 108, 0) );
+    background: linear-gradient(300deg , rgb(255, 166, 49) , rgb(190, 108, 0) );
 }
 
 .topbtn:active{
-    background:       linear-gradient(300deg , rgb(230, 230, 230) , rgb(190, 190, 190) );
-}
-
-#sum{
-    width:            125px;
-    height:           125px;
-    border-radius:    35px;
-    font-size:        3rem;
-    margin:           5px;
-    background:       linear-gradient(300deg ,rgb(255, 183, 88) ,rgb(228, 129, 0));
-    border:           none;
-    box-shadow:       inset 2px 2px 10px #fff, inset -2px -2px 10px rgb(143, 143, 143);
-    font-family:      arial,sans-serif ;
-    color:            #fff;
+    background: linear-gradient(300deg , rgb(230, 230, 230) , rgb(190, 190, 190) );
 }
 
 #sum:active{
-    background:       linear-gradient(300deg , rgb(255, 166, 49) , rgb(190, 108, 0) );
+    background: linear-gradient(300deg , rgb(255, 166, 49) , rgb(190, 108, 0) );
+}
+
+#sum{
+    width:        125px;
+    height:       125px;
+    border-radius:35px;
+    font-size:    3rem;
+    margin:       5px;
+    background:   linear-gradient(300deg ,rgb(255, 183, 88) ,rgb(228, 129, 0));
+    border:       none;
+    box-shadow:   inset 2px 2px 10px #fff, inset -2px -2px 10px rgb(143, 143, 143);
+    font-family:  arial,sans-serif ;
+    color:        #fff;
 }
